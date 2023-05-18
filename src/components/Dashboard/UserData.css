@@ -1,0 +1,59 @@
+.card-hr {
+    width: 100%;
+}
+
+.address-info {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 4px;
+}
+  
+.address-text {
+    flex-grow: 1;
+}
+
+.copy-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #0078ff;
+    font-size: 20px;
+}
+
+.userBalance {
+    font-weight: bold;
+}
+  
+.litt-text {
+    color: #0078ff;
+}
+
+.form-title-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.send-litt-text {
+    text-align: left;
+}
+
+.cancel-text {
+    cursor: pointer;
+    text-align: right;
+    color: #0078FF;
+}
+
+.warning-container {
+    text-align: left;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: #0078FF;
+}
+
+.MuiOutlinedInput-root::placeholder .MuiOutlinedInput-notchedOutline {
+    border-color: #0078FF;
+}
