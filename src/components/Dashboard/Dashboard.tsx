@@ -54,7 +54,7 @@ const Dashboard = () => {
         }
     }
 
-    window.ethereum.on('chainChanged', () => { if (!isCorrectNetwork) handleNetworkChange() })
+    window.ethereum?.on('chainChanged', () => { if (!isCorrectNetwork) handleNetworkChange() })
 
     useEffect(() => {
       (async () => {
